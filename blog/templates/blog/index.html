@@ -1,0 +1,19 @@
+{% extends "blog/generic_base.html" %}
+{% block head %}
+  <title>Blog</title>
+{% endblock %}
+
+  {% block content %}
+  <h2>
+    {{post.title}}
+  </h2>
+  <div>
+    <p>{{post.body}}</p>
+  </div>
+<!-- test content -->
+<article>
+ <h2 > <a href="">My Test Post</a> </h2>
+<time>published: 14.11.2024 ,4:21</time>
+<p> Hello friend , this is a test post !</p>
+</article>
+{% endblock %}
