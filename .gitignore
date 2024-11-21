@@ -9,7 +9,7 @@ venv/
 db.sqlite3 
 # Static folder at project root
 /static/
-static/
+
 # macOS 
 ._*
 .DS_Store 
@@ -24,3 +24,5 @@ $RECYCLE.BIN/
 .vscode/ 
 .history/ 
 *.code-workspace
+# bash
+.sh

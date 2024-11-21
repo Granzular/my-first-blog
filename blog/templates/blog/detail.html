@@ -1,0 +1,16 @@
+{% extends "blog/generic_base.html" %}
+
+{% block head %}
+<title>post detail</title>
+{% endblock %}
+
+{% block content %}
+<a href="/" style="text-decoration:none;color:white;font-size:20px;"> < back </a>
+<article>
+  <h2 class="post-title" >{{post.title}}</h2>
+  <time>published: {{post.published_date}}
+  </time>
+<p>  {{post.text}} </p>
+</article>
+<br/>
+{% endblock %}

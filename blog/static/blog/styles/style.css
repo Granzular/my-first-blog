@@ -1,0 +1,77 @@
+/* General body rule*/
+body {
+ margin:0px;
+ padding:0px;
+ background-color:grey;
+ 
+}
+
+/*Header */
+ ul{
+ display:flex;
+
+}
+
+header a{
+ color:grey;
+ text-decoration:none;
+}
+
+header a.title{
+ color: #009999;
+ font-family: courier;
+}
+header nav li{
+ list-style-type:none;
+ padding-right:8%;
+ 
+ 
+}
+header{
+ background-color:black;
+ padding:20px;
+ width:100%;
+ 
+}
+
+/*main body, content */
+
+main{
+ margin :20px;
+}
+.posts-title,article h2{
+ text-decoration:none;
+ color:#009988;
+ border-radius:3px;
+ width:100%;
+}
+article {
+ background-color:white;
+ border-radius: 5px;
+ padding:10px;
+ font-family:Roboto,Times New Roman;
+ color:grey;
+ 
+}
+
+ a.see-more {
+ font-size:30px;
+ text-decoration:none;
+}
+time{
+ color:black;
+ font-family:courier;
+}
+/* Footer */
+footer{
+ background-color:black;
+ color:grey;
+ font-size:10px;
+ text-align: center;
+ width:100%;
+ height:100%;
+ padding:20px;
+ padding-bottom:100%;
+/* position:fixed;*/
+
+}

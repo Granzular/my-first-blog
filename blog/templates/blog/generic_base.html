@@ -1,29 +1,37 @@
 <!DOCTYPE html> <html> <head>
   <meta http-equiv="CONTENT-TYPE"content="text/html; charset=UTF-8">
 
-  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <meta name="viewport"content="width=device-width,initial-scale=0.9">
 {% load static %}
 <link rel="stylesheet" href="{% static 'blog/styles/style.css'%}"/>
 {% block head %} {% endblock %}
 </head> <body>
   <header> <nav> <ul>
 
-   <li><a href="index">Home</a></li>
-      <li><a href="menu">Menu</a></li>
-      <li class="logo"><a href="index.html">Codex logo</a></li>
-    <li><a   href="locations">Locations</a></li>
-      <li><a href="contacts">Contact</a></li>
-    </ul> </nav> <h1> granzular
-    Codex
+   <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+ 
+    <li><a   href="/locations">Locations</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul> </nav> <h1><a class="title"  href="/"> granzular Codex</a>
   </h1> </header>
  <section   class="feature-box">
     <div></div> <div></div>
     <div></div>
   </section>
- <section class="content">
+ <main class="content">
 {% block content %}
 {% endblock %}
- </section>
-  <footer>Footer</footer>
+ </main>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+  <footer>
+ <address>
+ N18 umaru doma street , Gonin gora, Kaduna , Nigeria.
+</address>
+<p> copyright@2024 </p>
+</footer>
 
 </body> </html>

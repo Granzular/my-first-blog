@@ -18,4 +18,10 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def preview(self):
+        return self.text[:100]
+
+
+    class Meta:
+        ordering = ("published_date",)
 
